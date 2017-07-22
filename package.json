@@ -1,0 +1,28 @@
+{
+  "name": "canasta",
+  "version": "1.0.0",
+  "description": "An application to score Canasta games",
+  "main": "~",
+  "scripts": {
+    "test": "~"
+  },
+  "repository": {
+    "type": "git",
+    "url": "~"
+  },
+  "keywords": [
+    "canasta",
+    "cards",
+    "games",
+    "scoring"
+  ],
+  "author": "Juan Meyer <professor.bokdrol@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "mustache": "^2.3.0",
+    "sortablejs": "^1.6.0"
+  },
+  "devDependencies": {}
+}

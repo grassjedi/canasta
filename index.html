@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Canasta Score</title>
+		<script src="/node_modules/jquery/dist/jquery.min.js"></script>
+		<script src="/node_modules/mustache/mustache.min.js"></script>
+		<style type="text/css">
+			player-name {
+				text-align: left;
+			}
+		</style>
+		<link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css"></link>
+		<link rel="stylesheet" href="/css/styles.css"></link>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div id="player-configuration" class="col-sm-5">
+					<div class="col-sm-12 form-group user-form">
+						<div class="col-sm-8"><input id="player-name-input" type="text" placeholder="Player Name" class="form-control"/></div>
+						<div class="col-sm-4"><a id="add-player-button" type="button" name="addPlayer" class="btn btn-primary">Add Player</a></div>
+					</div>
+					<div id="player-list" class="col-sm-12"></div>
+				</div>
+				<div id="game-rounds" class="col-sm-7">
+					<table class="table">
+						<thead>
+							<th>Round</th>
+							<th>Description</th>
+							<th>&nbsp;</th>
+							<th>Score</th>
+						</thead>
+					</table>
+				</div>
+			</div>
+		</div>
+		<script src="/node_modules/sortablejs/Sortable.min.js"></script>
+		<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="/js/player-repository.js"></script>
+		<script src="/js/mustache-templates.js"></script>
+		<script src="/js/player-view-controller.js"></script>
+	</body>
+</html>

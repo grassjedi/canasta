@@ -1,0 +1,53 @@
+html, body {
+	font-family: sans-serif;
+	font-size: 14pt;
+}
+
+.player-name {
+	margin-left: 0.3em;
+	font-size: 0.85em;
+}
+
+._bg-primary {
+	background-color: #337ab7!important;
+	color: white;
+}
+
+._bg-success {
+	background-color: #5cb85c!important;
+	color: white;
+}
+
+._bg-info {
+	background-color: #5bc0de!important;
+	color: white;
+}
+
+._bg-warning {
+	background-color: #f0ad4e!important;
+	color: white;
+}
+
+._bg-danger {
+	background-color: #d9534f!important;
+	color: white;
+}
+
+._bg-reverse {
+	background-color: #292b2c!important;
+	color: white;
+}
+
+.player-component {
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+.player-component a {
+	color: white;
+	cursor: pointer;
+}
+
+.player-component a:hover {
+	color: lightgray;
+}
